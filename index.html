@@ -4,9 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Meine Testseite</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ece9e6, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 2rem 3rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 500px;
+    }
+
+    h1 {
+      color: #4a90e2;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <h1>Willkommen auf meiner Testseite!</h1>
-  <p>Diese statische HTML-Seite wird über GitHub in Microsoft Azure deployed.</p>
+  <div class="card">
+    <h1>👋 Willkommen!</h1>
+    <p>Dies ist eine schön formatierte statische HTML-Testseite, die über GitHub in Azure deployed werden kann.</p>
+    <div class="footer">Erstellt mit 💙 von dir</div>
+  </div>
 </body>
 </html>
